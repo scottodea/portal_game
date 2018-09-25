@@ -6,6 +6,7 @@ puts "Room 1 Room 2 Room 3 Room 4"
 
 user_input = gets.chomp
 if user_input == "Room 1"
+  puts "a dirty dank room"
 end
 if user_input == "Room 2"
 end
