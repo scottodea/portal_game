@@ -34,11 +34,25 @@ if user_input == "Room 2"
     else 
         puts "You cleverly refrain from eating the donnut, when a small trapdoor opens up and a rabid dog runs through the door. You snatch up the donnut and through it far away from you. The rabid dog who loves donnuts chases after the donnut, while you quickly run and slide through the small trapdoor."
 end
+
 if user_input == "Room 3"
     testing
     portalend = true
 end
+  
 if user_input == "Room 4"
+    puts "You fall into a river and land is too high up"
+    puts "You come to a fork"
+    puts "One side is storming and one side is sunny"
+    puts "which way will you swim? (storm/sun)"
+    swim = gets.chomp
+    if swim = "storm"
+        puts "The storm has cleared up and the sun comes out"
+        puts "You come to the end of the river and reach another door"
+    elsif swim = "sun"
+        puts "It rains heavily and the river stream runs rapidly"
+        puts "You hit your head on a log and come to the end of the river"
+    end
 end
 
 if portalend == true
