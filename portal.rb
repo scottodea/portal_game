@@ -8,7 +8,7 @@ user_input = gets.chomp
 if user_input == "Room 1"
   puts "You enter a dirty dank alleyway covered in condoms and dead rats"
   puts "There is a midget staring at you"
-  puts "Where do you want to go"
+  puts "Where do you want to go?"
 end
 if user_input == "Room 2"
 end
