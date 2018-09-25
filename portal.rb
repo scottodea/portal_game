@@ -4,10 +4,8 @@ puts "Find your way home"
 puts "Which room will you enter"
 puts "Room 1 Room 2 Room 3 Room 4"
 
-<<<<<<< HEAD
 while portalend == false
 
-=======
 user_input = (gets.chomp).downcase
 if user_input == "room 1"
   puts "You enter a dirty dank alleyway covered in condoms and dead rats"
@@ -27,7 +25,7 @@ if user_input == "room 1"
       end
     end
   puts "Where do you want to go?"
->>>>>>> c67ae7e90f70d7e33b2637e83f092908a68879c6
+
 end
 if user_input == "Room 2"
     puts "you find yourself in a room where there is a donut on a plate and a not telling you not to eat it."
