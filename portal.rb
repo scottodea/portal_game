@@ -57,13 +57,6 @@ end
 end
 
 if portalend == true
-<<<<<<< HEAD
 puts    
 puts "You found the portal, congratulations"
 end
-=======
-   puts "You found the portal, congratulations"
-end
-
-
->>>>>>> c67ae7e90f70d7e33b2637e83f092908a68879c6
