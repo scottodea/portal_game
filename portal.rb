@@ -13,4 +13,4 @@ if portalend == true
    puts "You found the portal, congratulations"
 end
 
-test
+
