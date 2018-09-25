@@ -10,6 +10,7 @@ end
 if user_input == "Room 2"
 end
 if user_input == "Room 3"
+    testing
     portalend = true
 end
 if user_input == "Room 4"
