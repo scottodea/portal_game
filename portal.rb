@@ -43,8 +43,21 @@ if user_input == "room 3"
       if bear == "stair"
             puts "The bear mumurs and stirs, but thankfully doesn't wake up, you walk up the staircase"
             puts
+            puts "You enter a dim room covered in webs"
+            puts "Two doors in front of you are locked but luckily there are two keys on the ground"
+            puts "One key looks old and rusted, the other looks new, but has a sinister appearance"
+            puts "Which key do you pick to open one of the doors? (old/new)"
+            key = gets.chomp
+            if key == "old"
+            puts "You select the old key, and push the creaky door open"
             puts "A bright portal appears before you, you fall on your knees in joy"
             portalend = true
+            else key == "new"
+            puts "You pick up the sinister looking key, place it in the lock and push open the door"
+            puts "Extremely confused, you find yourself where you first started"
+            puts
+            puts
+            end
       else bear == "slide"
             puts "You fall onto sharp bamboo spikes, bleeding profusely you choke to death on your own blood"
             break
