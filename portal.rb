@@ -7,7 +7,7 @@ puts "Room 1 Room 2 Room 3 Room 4"
 user_input = (gets.chomp).downcase
 if user_input == "room 1"
   puts "You enter a dirty dank alleyway covered in condoms and dead rats"
-  puts "There is a midget staring at you"
+  puts "There is a midget staring at you" 
   
     while true
       puts "What do you want to do? (punch/kick)"
