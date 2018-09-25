@@ -27,6 +27,12 @@ end
 if user_input == "Room 2"
     puts "you find yourself in a room where there is a donut on a plate and a not telling you not to eat it."
     puts "Do you eat it?"
+    donut = gets.chomp
+    if donut == "y"
+        puts "You eat the donnut which is sick but then a small trapdoor opens up and a rabid dog runs through the door and rips you to pieces."
+        puts "GAME OVER"
+    else 
+        puts "You cleverly refrain from eating the donnut, when a small trapdoor opens up and a rabid dog runs through the door. You snatch up the donnut and through it far away from you. The rabid dog who loves donnuts chases after the donnut, while you quickly run and slide through the small trapdoor."
 end
 if user_input == "Room 3"
     testing
@@ -38,5 +44,5 @@ end
 if portalend == true
    puts "You found the portal, congratulations"
 end
-
+end
 
