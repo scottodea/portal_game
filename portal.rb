@@ -1,12 +1,12 @@
 portalend= false
 
-puts "Find your way home"
-puts "Which room will you enter"
-puts "Room 1 Room 2 Room 3 Room 4"
+
 
 while portalend == false
-
-user_input = (gets.chomp).downcase
+    puts "Find your way home"
+    puts "Which room will you enter"
+    puts "Room 1 Room 2 Room 3 Room 4"
+    user_input = (gets.chomp).downcase
 if user_input == "room 1"
   puts "You enter a dirty dank alleyway covered in condoms and dead rats"
   puts "There is a midget staring at you"
@@ -27,11 +27,11 @@ if user_input == "room 1"
   puts "Where do you want to go?"
 
 end
-if user_input == "Room 2"
+if user_input == "room 2"
     puts "you find yourself in a room where there is a donut on a plate and a not telling you not to eat it."
     puts "Do you eat it?"
 end
-if user_input == "Room 3"
+if user_input == "room 3"
     puts "You enter a bright room filled with snakes covered in chocolate"
     puts "Realising the snakes are angry you decide you need to quickly make a decision between the two doors ahead"
     puts "Do you pick the door on the left or the door on the right (l/r)"
@@ -47,16 +47,18 @@ if user_input == "Room 3"
             portalend = true
       else bear == "slide"
             puts "You fall onto sharp bamboo spikes, bleeding profusely you choke to death on your own blood"
+            break
       end
     else snake_door == "r"
-        puts "A demon appears before you, gobbles your soul and rapes your corpse"    
+        puts "A demon appears before you, gobbles your soul and rapes your corpse"
+        break    
     end
 end
-if user_input == "Room 4"
+if user_input == "room 4"
 end
 end
 
 if portalend == true
 puts    
-puts "You found the portal, congratulations"
+puts "You found the portal, time to go home!"
 end
