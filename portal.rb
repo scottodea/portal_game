@@ -4,11 +4,34 @@ puts "Find your way home"
 puts "Which room will you enter"
 puts "Room 1 Room 2 Room 3 Room 4"
 
+<<<<<<< HEAD
 while portalend == false
-user_input = gets.chomp
-if user_input == "Room 1"
+
+=======
+user_input = (gets.chomp).downcase
+if user_input == "room 1"
+  puts "You enter a dirty dank alleyway covered in condoms and dead rats"
+  puts "There is a midget staring at you"
+  
+    while true
+      puts "What do you want to do? (punch/kick)"
+      action = (gets.chomp).downcase
+      if action == "kick"
+        puts "Congratulations, you killed the condom midget"
+        break
+      elsif action == "punch"
+        puts "Congratulations, you killed the condom midget"
+        break
+      else
+        puts "Not a valid action"
+      end
+    end
+  puts "Where do you want to go?"
+>>>>>>> c67ae7e90f70d7e33b2637e83f092908a68879c6
 end
 if user_input == "Room 2"
+    puts "you find yourself in a room where there is a donut on a plate and a not telling you not to eat it."
+    puts "Do you eat it?"
 end
 if user_input == "Room 3"
     puts "You enter a bright room filled with snakes covered in chocolate"
@@ -36,6 +59,13 @@ end
 end
 
 if portalend == true
-    puts
-    puts "You found the portal, congratulations"
+<<<<<<< HEAD
+puts    
+puts "You found the portal, congratulations"
 end
+=======
+   puts "You found the portal, congratulations"
+end
+
+
+>>>>>>> c67ae7e90f70d7e33b2637e83f092908a68879c6
