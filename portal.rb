@@ -11,6 +11,8 @@ if user_input == "Room 1"
   puts "Where do you want to go"
 end
 if user_input == "Room 2"
+    puts "you find yourself in a room where there is a donut on a plate and a not telling you not to eat it."
+    puts "Do you eat it?"
 end
 if user_input == "Room 3"
     testing
@@ -22,3 +24,5 @@ end
 if portalend == true
    puts "You found the portal, congratulations"
 end
+
+
